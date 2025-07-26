@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    repo: https://github.com/hossamhhhkj/autotrade-telegram-bot
+    plan: free
+    branch: main
+    autoDeploy: true
